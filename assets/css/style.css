@@ -15,7 +15,7 @@ body {
     opacity: 1;
     width: 100px;
     height: 100px;
- 
+    color: white;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -52,4 +52,20 @@ body {
     align-items: center;
 
 }
+.box_forth {
+    font-size: 2rem;
+    margin: 20px 0;
+    opacity: 1;
+    /* Default opacity */
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 500px;
+    display: flex;
+    color: white;
+    background: blueviolet;
+    border-radius: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}

@@ -26,18 +26,8 @@
   );
   gsap.fromTo("#text5",
     { opacity: 0, y: 50 , },  
-    { opacity: 1, y: 0, duration: 6, delay: 1.5, repeat: -1, yoyo: true,  background:"orange" , rotate:-"560",   xPercent:340, }  
+    { opacity: 1, y: 0, duration: 6, delay: 1.5, repeat: 0, yoyo: true,  background:"orange" ,    xPercent:340, }  
   );
-//   gsap.fromTo("#text6",
-//     { opacity: 0, y: 50 , }, 
-//     { opacity: 1, y: 0, duration: 6, delay: 1.5, repeat: -1, yoyo: true, background:"green" ,  xPercent:-240, } 
-//   );
+
   
-    gsap.fromTo("#text6",
-        { opacity: 0,  
-            x: 200,   
-            duration: 2, 
-            delay: 0.5,    
-            repeat: -1,
-            yoyo: true  } 
-      );
+  
