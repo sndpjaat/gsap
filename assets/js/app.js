@@ -28,6 +28,20 @@
     { opacity: 0, y: 50 , },  
     { opacity: 1, y: 0, duration: 6, delay: 1.5, repeat: 0, yoyo: true,  background:"orange" ,    xPercent:340, }  
   );
-
-  
+  gsap.fromTo(
+    "#text6",
+    { opacity: 0, y: -50 }, 
+    {
+      opacity: 1,
+      x: 70, 
+      duration: 2,
+      delay: 0.1,
+      repeat: -1,
+      rotate:"600",
+      yoyo: true,
+      background: "gray",
+      yPercent: 40,
+    
+    }
+  );
   
